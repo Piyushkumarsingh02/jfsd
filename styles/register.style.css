@@ -1,0 +1,80 @@
+/* Default Styles with Background Image */
+body {
+    background-image: url('../resources/login.png'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-color: #f7f9fc; /* Fallback color */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b !important; /* Branding color */
+}
+
+/* Form Section Styles */
+.form-section {
+    background-color: #ffffff; /* White background for the form section */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Input Field Focus */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Primary Button Hover */
+.btn-primary:hover {
+    background-color: #ff4757;
+}
+
+/* Outline Light Button */
+.btn-outline-light {
+    color: #ff6b6b;
+    border-color: #ff6b6b;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Outline Button Hover */
+.btn-outline-light:hover {
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+/* Invalid Feedback */
+.invalid-feedback {
+    font-size: 0.9rem;
+    color: #e74c3c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

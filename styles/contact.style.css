@@ -1,0 +1,49 @@
+/* Custom Styles */
+body {
+    background-color: #f7f9fc; /* Light background color */
+    background: url('../resources/login.png') no-repeat center center/cover; /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-attachment: fixed; /* Fix the background while scrolling */
+}
+
+/* Navbar brand styles */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b !important; /* Branding color */
+}
+
+/* Form section styles */
+.form-section {
+    background: #ffffff; /* White background for form section */
+    border-radius: 15px; /* Rounded corners */
+    padding: 40px; /* Padding inside the form */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow around form */
+}
+
+/* Focus styles for form controls */
+.form-control:focus {
+    border-color: #007bff; /* Blue focus border */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue focus shadow */
+}
+
+/* Primary button styles */
+.btn-primary {
+    background-color: #ff6b6b; /* Branding color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #ff4757; /* Darker shade on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark footer background */
+    color: #ffffff; /* White text in footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}

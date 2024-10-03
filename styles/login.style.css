@@ -1,0 +1,77 @@
+/* Custom Styles */
+body {
+    background: url('../resources/login.png') no-repeat center center/cover; /* Add background image for the login page */
+    background-attachment: fixed; /* Fix the background while scrolling */
+    background-size: cover; /* Ensure the image covers the whole page */
+    background-color: #f7f9fc; /* Light background color for any areas not covered by the image */
+}
+
+/* Navbar styles */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b !important; /* Branding color */
+}
+
+/* Form Section */
+.form-section {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    opacity: 0.95; /* Slight transparency to blend the form with the background */
+}
+
+/* Form focus styles */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff4757;
+}
+
+/* Outline light button styles */
+.btn-outline-light {
+    color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.btn-outline-light:hover {
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+/* Invalid feedback for form validation */
+.invalid-feedback {
+    font-size: 0.9rem;
+    color: #e74c3c;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .form-section {
+        padding: 30px;
+    }
+}
